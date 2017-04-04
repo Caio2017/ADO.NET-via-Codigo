@@ -387,6 +387,23 @@ namespace WindowsFormsApplication1
                 i++;
             }
             sqlconnection.Close();
+            //Populando a partir de dataTable
+            //foreach(DataRow linha in dataTable.Rows)
+            //{
+            //	ListViewItem listItem = new ListViewItem(linha["Id_D"].ToString());
+            //listItem.SubItems.Add(linha["Nome"].ToString());
+            //	listItem.SubItems.Add(linha["Sexo"].ToString());
+            //	listView1.Items.Add(listItem);
+            //}
+
+            //Populando por uma lista de classe
+            //List<Pessoa> pessoas = new List<Pessoa>();
+            //for (int i = 0; i<departamentos.Count; i++)
+            //{
+            //	listView1.Items.Add(pessoas[i].Id_D.ToString());
+            //	listView1.Items[i].SubItems.Add(pessoas[i].Nome);
+            //	listView1.Items[i].SubItems.Add(pessoas[i].Sexo);
+            //}
         }
 
         //populando comboBox e ListBox
